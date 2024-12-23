@@ -56,8 +56,8 @@ android {
     }
 }
 
-def lifecycle_version = '2.4.1'
-def annotation_version = '1.3.0'
+def lifecycle_version = '2.8.7'
+def annotation_version = '1.9.1'
 
 dependencies {
     implementation project(':unityLibrary')
@@ -69,7 +69,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
     implementation "androidx.annotation:annotation:$annotation_version"
 
-    implementation "io.flutter:flutter_plugin_android_lifecycle:1.0.0"
+    implementation "io.flutter:flutter_plugin_android_lifecycle:16.0.0"
 
     // FOR DEV ONLY
 //    implementation(name: 'flutter', ext:'jar')
