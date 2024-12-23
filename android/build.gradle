@@ -60,7 +60,6 @@ def lifecycle_version = '2.8.7'
 def annotation_version = '1.9.1'
 
 dependencies {
-    implementation project(':unityLibrary')
     implementation(name: 'unity-classes', ext:'jar')
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

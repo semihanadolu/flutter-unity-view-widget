@@ -1,5 +1,2 @@
 rootProject.name = 'flutter_unity_widget'
 
-include ":unityLibrary"
-project(":unityLibrary").projectDir = file("./unityLibrary")
-
