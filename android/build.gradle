@@ -69,7 +69,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
     implementation "androidx.annotation:annotation:$annotation_version"
 
-    implementation "io.flutter:flutter_plugin_android_lifecycle:16.0.0"
+    //compileOnly 'com.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:1.0.0'
 
     // FOR DEV ONLY
 //    implementation(name: 'flutter', ext:'jar')
